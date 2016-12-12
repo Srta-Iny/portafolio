@@ -1,0 +1,125 @@
+html {
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+/*header*/
+nav ul a, nav a {
+	color: #ff877c !important;
+}
+.cursive{
+	font-family: 'Parisienne', cursive;
+	color: #ff877c !important;
+}
+nav ul a:hover {
+    color: #000 !important;
+}
+/*seccion nombre*/
+#nombre{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	height: 500px;
+}
+
+.titulo{
+	position: relative;
+	right:0;
+	left: 0;
+	top: 50%;
+	transform: translateY(150%);
+}
+.titulo h1{
+	font-family: 'Parisienne', cursive;
+}
+.titulo	p{
+	font-size: 18px;
+}
+/**/
+.separador{
+	padding: 2% 0;
+	background-color: #ffe8e6;
+	font-family: 'Parisienne', cursive;
+}
+.foto2{
+	width: 20%;
+}
+
+/*seccion trabajos*/
+#works{
+	padding:3% 0; 
+}
+#works h2{
+	margin-bottom: 10%;
+}
+.card-title{
+	color: #ff877c;
+}
+.card-content{
+	min-height: 100px;
+}
+.gray{
+	font-size: 	14px;
+	color: #ff877c !important;
+	border-bottom: 1px solid #ff877c !important;
+}
+.gray:hover{
+	color: #000 !important;
+	border-color: #000 !important;
+}
+/*seccion habilidades*/
+#skills{
+	padding: 3% 0;
+}
+#skills h2{
+	margin-bottom: 10%;
+}
+#skills .m1{
+	width: 11%;
+
+}
+.foto{
+	width: 80%;
+}
+/*seccion acerca*/
+#about{
+	padding: 3% 0;
+	background-color: #ffe8e6;
+}
+.acerca{
+	margin-left: 5%;
+}
+/*footer*/
+#contacto{
+	padding: 3% 0;
+	background-color: #ff877c;
+}
+#contacto h4{
+	font-family: 'Parisienne', cursive;
+}
+#contacto li{
+	margin: 2% 5%;
+}
+.icon{
+	font-size: 30px;
+    line-height: 1;
+    color: #000 !important;
+}
+.icon:hover{
+	color: #ffe8e6 !important;
+}
+/*media query*/
+@media (max-width: 600px) {
+	.titulo{
+		position: relative;
+		right:0;
+		left: 0;
+		top: 50%;
+		transform: translateY(100%);
+	}
+	.foto{
+		width: 90%;
+	}
+	#skills .s3{
+		width: 25%;
+	}
+}
