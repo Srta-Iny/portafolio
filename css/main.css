@@ -10,7 +10,7 @@ nav ul a, nav a {
 	color: #ff877c !important;
 }
 nav ul a:hover {
-    color: #000 !important;
+    color: #6C0202 !important;
 }
 /*seccion nombre*/
 #nombre{
@@ -63,8 +63,8 @@ nav ul a:hover {
 	border-bottom: 1px solid #ff877c !important;
 }
 .gray:hover{
-	color: #000 !important;
-	border-color: #000 !important;
+	color: #6C0202 !important;
+	border-color: #6C0202 !important;
 }
 /*seccion habilidades*/
 #skills{
@@ -92,6 +92,7 @@ nav ul a:hover {
 #contacto{
 	padding: 3% 0;
 	background-color: #ff877c;
+	color: #6C0202 !important;
 }
 #contacto h4{
 	font-family: 'Parisienne', cursive;
@@ -102,7 +103,7 @@ nav ul a:hover {
 .icon{
 	font-size: 30px;
     line-height: 1;
-    color: #000 !important;
+    color: #6C0202 !important;
 }
 .icon:hover{
 	color: #ffe8e6 !important;
