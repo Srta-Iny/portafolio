@@ -18,7 +18,7 @@ nav ul a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;	
-	height: 500px;
+	height: 100vh;
 }
 
 .titulo{
@@ -26,7 +26,7 @@ nav ul a:hover {
 	right:0;
 	left: 0;
 	top: 50%;
-	transform: translateY(150%);
+	transform: translateY(230%);
 }
 .titulo h1{
 	font-family: 'Parisienne', cursive;
@@ -44,6 +44,7 @@ nav ul a:hover {
 	width: 20%;
 }
 
+
 /*seccion trabajos*/
 #works{
 	padding:3% 0; 
@@ -60,11 +61,9 @@ nav ul a:hover {
 .gray{
 	font-size: 	14px;
 	color: #ff877c !important;
-	border-bottom: 1px solid #ff877c !important;
 }
 .gray:hover{
 	color: #6C0202 !important;
-	border-color: #6C0202 !important;
 }
 /*seccion habilidades*/
 #skills{
@@ -88,6 +87,32 @@ nav ul a:hover {
 .acerca{
 	margin-left: 5%;
 }
+.iny{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	background-image: url(../img/perfil-1.jpg);
+	background-position: center;
+	background-size: cover;
+	-webkit-transition: background 1000ms ease-in;
+	-moz-transition: background 1000ms ease-in;
+	-ms-transition: background 1000ms ease-in;
+	-o-transition: background 1000ms ease-in;
+	transition: background 1000ms ease-in;
+}
+.iny:hover{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	background-image: url(../img/foto.jpg);
+	background-position: center;
+	background-size: cover;
+	-webkit-transition: background 1300ms ease-in;
+	-moz-transition: background 1300ms ease-in;
+	-ms-transition: background 1300ms ease-in;
+	-o-transition: background 1300ms ease-in;
+	transition: background 1300ms ease-in;
+}
 /*footer*/
 #contacto{
 	padding: 3% 0;
@@ -97,16 +122,22 @@ nav ul a:hover {
 #contacto h4{
 	font-family: 'Parisienne', cursive;
 }
+.contac{
+	margin-left: 3% !important;
+}
+.valign-wrapper{
+    margin-top: 2%;
+}
 #contacto li{
 	margin: 2% 5%;
 }
 .icon{
-	font-size: 30px;
+	font-size: 50px;
     line-height: 1;
-    color: #6C0202 !important;
+    color: #ffe8e6 !important;
 }
 .icon:hover{
-	color: #ffe8e6 !important;
+	color: #6C0202 !important;
 }
 /*media query*/
 @media (max-width: 600px) {
